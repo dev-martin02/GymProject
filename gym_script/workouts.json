@@ -1,0 +1,777 @@
+{
+  "muscleGroups": [
+    {
+      "muscle": "Chest",
+      "exercises": [
+        {
+          "name": "Barbell Bench Press",
+          "type": "Strength",
+          "primaryMuscle": "Chest",
+          "secondaryMuscles": ["Front Deltoids", "Triceps"],
+          "equipment": ["Barbell", "Bench"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Bench Press", "Machine Chest Press"]
+        },
+        {
+          "name": "Dumbbell Bench Press",
+          "type": "Strength",
+          "primaryMuscle": "Chest",
+          "secondaryMuscles": ["Front Deltoids", "Triceps"],
+          "equipment": ["Dumbbells", "Bench"],
+          "environment": "Gym",
+          "alternative": ["Barbell Bench Press", "Push-ups"]
+        },
+        {
+          "name": "Incline Barbell Press",
+          "type": "Strength",
+          "primaryMuscle": "Upper Chest",
+          "secondaryMuscles": ["Front Deltoids", "Triceps"],
+          "equipment": ["Barbell", "Incline Bench"],
+          "environment": "Gym",
+          "alternative": ["Incline Dumbbell Press", "Low-to-High Cable Flyes"]
+        },
+        {
+          "name": "Decline Barbell Press",
+          "type": "Strength",
+          "primaryMuscle": "Lower Chest",
+          "secondaryMuscles": ["Front Deltoids", "Triceps"],
+          "equipment": ["Barbell", "Decline Bench"],
+          "environment": "Gym",
+          "alternative": ["Decline Dumbbell Press", "Dips"]
+        },
+        {
+          "name": "Dumbbell Flyes",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Chest",
+          "secondaryMuscles": ["Front Deltoids"],
+          "equipment": ["Dumbbells", "Bench"],
+          "environment": "Gym",
+          "alternative": ["Cable Crossovers", "Pec Deck Machine"]
+        },
+        {
+          "name": "Cable Crossovers",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Chest",
+          "secondaryMuscles": ["Front Deltoids"],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Flyes", "Resistance Band Flyes"]
+        },
+        {
+          "name": "Push-ups",
+          "type": "Endurance",
+          "primaryMuscle": "Chest",
+          "secondaryMuscles": ["Triceps", "Front Deltoids", "Core"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Bench Press", "Knee Push-ups"]
+        },
+        {
+          "name": "Dips",
+          "type": "Strength",
+          "primaryMuscle": "Lower Chest",
+          "secondaryMuscles": ["Triceps", "Front Deltoids"],
+          "equipment": ["Parallel Bars"],
+          "environment": "Gym",
+          "alternative": ["Bench Press", "Close-grip Push-ups"]
+        },
+        {
+          "name": "Incline Dumbbell Flyes",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Upper Chest",
+          "secondaryMuscles": ["Front Deltoids"],
+          "equipment": ["Dumbbells", "Incline Bench"],
+          "environment": "Gym",
+          "alternative": ["Incline Cable Flyes", "Low-to-High Cable Crossovers"]
+        },
+        {
+          "name": "Decline Dumbbell Flyes",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Lower Chest",
+          "secondaryMuscles": ["Front Deltoids"],
+          "equipment": ["Dumbbells", "Decline Bench"],
+          "environment": "Gym",
+          "alternative": ["Decline Cable Flyes", "Dips"]
+        },
+        {
+          "name": "Chest Press Machine",
+          "type": "Strength",
+          "primaryMuscle": "Chest",
+          "secondaryMuscles": ["Front Deltoids", "Triceps"],
+          "equipment": ["Chest Press Machine"],
+          "environment": "Gym",
+          "alternative": ["Barbell Bench Press", "Dumbbell Press"]
+        },
+        {
+          "name": "Resistance Band Chest Press",
+          "type": "Strength",
+          "primaryMuscle": "Chest",
+          "secondaryMuscles": ["Front Deltoids", "Triceps"],
+          "equipment": ["Resistance Bands"],
+          "environment": "Home",
+          "alternative": ["Dumbbell Press", "Push-ups"]
+        }
+      ]
+    },
+    {
+      "muscle": "Back",
+      "exercises": [
+        {
+          "name": "Pull-ups",
+          "type": "Strength",
+          "primaryMuscle": "Latissimus Dorsi",
+          "secondaryMuscles": ["Biceps", "Rear Deltoids", "Trapezius"],
+          "equipment": ["Pull-up Bar"],
+          "environment": "Both",
+          "alternative": ["Lat Pulldowns", "Assisted Pull-ups"]
+        },
+        {
+          "name": "Barbell Rows",
+          "type": "Strength",
+          "primaryMuscle": "Middle Back",
+          "secondaryMuscles": ["Latissimus Dorsi", "Biceps", "Rear Deltoids"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Rows", "T-Bar Rows"]
+        },
+        {
+          "name": "Dumbbell Rows",
+          "type": "Strength",
+          "primaryMuscle": "Latissimus Dorsi",
+          "secondaryMuscles": ["Trapezius", "Biceps", "Rear Deltoids"],
+          "equipment": ["Dumbbell"],
+          "environment": "Gym",
+          "alternative": ["Barbell Rows", "Seated Cable Rows"]
+        },
+        {
+          "name": "Seated Cable Rows",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Middle Back",
+          "secondaryMuscles": ["Latissimus Dorsi", "Biceps", "Rear Deltoids"],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Bent-over Rows", "T-Bar Rows"]
+        },
+        {
+          "name": "Lat Pulldowns",
+          "type": "Strength",
+          "primaryMuscle": "Latissimus Dorsi",
+          "secondaryMuscles": ["Biceps", "Rear Deltoids"],
+          "equipment": ["Lat Pulldown Machine"],
+          "environment": "Gym",
+          "alternative": ["Pull-ups", "Assisted Pull-ups"]
+        },
+        {
+          "name": "T-Bar Rows",
+          "type": "Strength",
+          "primaryMuscle": "Middle Back",
+          "secondaryMuscles": ["Latissimus Dorsi", "Biceps", "Rear Deltoids"],
+          "equipment": ["T-Bar Machine", "Barbell"],
+          "environment": "Gym",
+          "alternative": ["Barbell Rows", "Seated Cable Rows"]
+        },
+        {
+          "name": "Face Pulls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Rear Deltoids",
+          "secondaryMuscles": ["Trapezius", "Rotator Cuff"],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Band Pull-aparts", "Reverse Flyes"]
+        },
+        {
+          "name": "Back Extensions",
+          "type": "Endurance",
+          "primaryMuscle": "Erector Spinae",
+          "secondaryMuscles": ["Glutes", "Hamstrings"],
+          "equipment": ["Back Extension Bench"],
+          "environment": "Gym",
+          "alternative": ["Superman Holds", "Deadlifts"]
+        },
+        {
+          "name": "Inverted Rows",
+          "type": "Strength",
+          "primaryMuscle": "Middle Back",
+          "secondaryMuscles": ["Biceps", "Rear Deltoids"],
+          "equipment": ["Smith Machine Bar", "TRX Straps"],
+          "environment": "Both",
+          "alternative": ["Seated Cable Rows", "Bent-over Rows"]
+        },
+        {
+          "name": "Single-Arm Dumbbell Rows",
+          "type": "Strength",
+          "primaryMuscle": "Latissimus Dorsi",
+          "secondaryMuscles": ["Trapezius", "Biceps"],
+          "equipment": ["Dumbbell"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Rows", "Seated Cable Rows"]
+        },
+        {
+          "name": "Deadlifts",
+          "type": "Strength",
+          "primaryMuscle": "Erector Spinae",
+          "secondaryMuscles": ["Glutes", "Hamstrings", "Traps"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Romanian Deadlifts", "Trap Bar Deadlifts"]
+        },
+        {
+          "name": "Good Mornings",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Erector Spinae",
+          "secondaryMuscles": ["Glutes", "Hamstrings"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Back Extensions", "Deadlifts"]
+        }
+      ]
+    },
+    {
+      "muscle": "Legs",
+      "exercises": [
+        {
+          "name": "Barbell Squats",
+          "type": "Strength",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": ["Glutes", "Hamstrings", "Core"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Goblet Squats", "Leg Press"]
+        },
+        {
+          "name": "Front Squats",
+          "type": "Strength",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": ["Glutes", "Core"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Back Squats", "Zercher Squats"]
+        },
+        {
+          "name": "Leg Press",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": ["Glutes", "Hamstrings"],
+          "equipment": ["Leg Press Machine"],
+          "environment": "Gym",
+          "alternative": ["Hack Squats", "Bulgarian Split Squats"]
+        },
+        {
+          "name": "Romanian Deadlifts",
+          "type": "Strength",
+          "primaryMuscle": "Hamstrings",
+          "secondaryMuscles": ["Glutes", "Lower Back"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Deadlifts", "Good Mornings"]
+        },
+        {
+          "name": "Leg Extensions",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": [],
+          "equipment": ["Leg Extension Machine"],
+          "environment": "Gym",
+          "alternative": ["Sissy Squats", "Step-ups"]
+        },
+        {
+          "name": "Hamstring Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Hamstrings",
+          "secondaryMuscles": ["Calves"],
+          "equipment": ["Leg Curl Machine"],
+          "environment": "Gym",
+          "alternative": ["Glute-Ham Raises", "Stability Ball Curls"]
+        },
+        {
+          "name": "Lunges",
+          "type": "Strength",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": ["Glutes", "Hamstrings"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Split Squats", "Step-ups"]
+        },
+        {
+          "name": "Calf Raises",
+          "type": "Endurance",
+          "primaryMuscle": "Calves",
+          "secondaryMuscles": [],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Seated Calf Raises", "Jump Rope"]
+        },
+        {
+          "name": "Glute Bridges",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Glutes",
+          "secondaryMuscles": ["Hamstrings", "Core"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Hip Thrusts", "Single-leg Bridges"]
+        },
+        {
+          "name": "Goblet Squats",
+          "type": "Strength",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": ["Glutes", "Core"],
+          "equipment": ["Dumbbell", "Kettlebell"],
+          "environment": "Gym",
+          "alternative": ["Bodyweight Squats", "Bulgarian Split Squats"]
+        },
+        {
+          "name": "Step-ups",
+          "type": "Strength",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": ["Glutes", "Hamstrings"],
+          "equipment": ["Bench", "Box"],
+          "environment": "Both",
+          "alternative": ["Lunges", "Split Squats"]
+        },
+        {
+          "name": "Bodyweight Squats",
+          "type": "Endurance",
+          "primaryMuscle": "Quadriceps",
+          "secondaryMuscles": ["Glutes", "Core"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Chair Squats", "Jump Squats"]
+        }
+      ]
+    },
+    {
+      "muscle": "Shoulders",
+      "exercises": [
+        {
+          "name": "Overhead Barbell Press",
+          "type": "Strength",
+          "primaryMuscle": "Deltoids (Anterior)",
+          "secondaryMuscles": ["Triceps", "Upper Chest"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Shoulder Press", "Arnold Press"]
+        },
+        {
+          "name": "Dumbbell Shoulder Press",
+          "type": "Strength",
+          "primaryMuscle": "Deltoids (Anterior)",
+          "secondaryMuscles": ["Triceps", "Upper Chest"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Barbell Shoulder Press", "Arnold Press"]
+        },
+        {
+          "name": "Lateral Raises",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Deltoids (Lateral)",
+          "secondaryMuscles": ["Trapezius"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Cable Lateral Raises", "Plate Raises"]
+        },
+        {
+          "name": "Front Raises",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Deltoids (Anterior)",
+          "secondaryMuscles": ["Upper Chest"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Plate Front Raises", "Barbell Front Raises"]
+        },
+        {
+          "name": "Rear Delt Flyes",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Deltoids (Posterior)",
+          "secondaryMuscles": ["Trapezius", "Rhomboids"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Face Pulls", "Reverse Pec Deck"]
+        },
+        {
+          "name": "Arnold Press",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Deltoids (All Heads)",
+          "secondaryMuscles": ["Triceps", "Upper Chest"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Shoulder Press", "Neutral Grip Press"]
+        },
+        {
+          "name": "Upright Rows",
+          "type": "Strength",
+          "primaryMuscle": "Deltoids (Lateral)",
+          "secondaryMuscles": ["Trapezius", "Biceps"],
+          "equipment": ["Barbell", "Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Lateral Raises", "High Pulls"]
+        },
+        {
+          "name": "Face Pulls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Deltoids (Posterior)",
+          "secondaryMuscles": ["Trapezius", "Rotator Cuff"],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Rear Delt Flyes", "Band Pull-aparts"]
+        },
+        {
+          "name": "Dumbbell Shrugs",
+          "type": "Strength",
+          "primaryMuscle": "Trapezius",
+          "secondaryMuscles": ["Deltoids"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Barbell Shrugs", "Farmer's Walk"]
+        },
+        {
+          "name": "Cable Lateral Raises",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Deltoids (Lateral)",
+          "secondaryMuscles": ["Trapezius"],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Lateral Raises", "Machine Lateral Raises"]
+        },
+        {
+          "name": "Handstand Push-ups",
+          "type": "Strength",
+          "primaryMuscle": "Deltoids (All Heads)",
+          "secondaryMuscles": ["Triceps", "Upper Chest", "Core"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Pike Push-ups", "Overhead Press"]
+        },
+        {
+          "name": "Plate Front Raises",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Deltoids (Anterior)",
+          "secondaryMuscles": ["Upper Chest"],
+          "equipment": ["Weight Plate"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Front Raises", "Barbell Front Raises"]
+        }
+      ]
+    },
+    {
+      "muscle": "Biceps",
+      "exercises": [
+        {
+          "name": "Barbell Bicep Curls",
+          "type": "Strength",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": ["Brachialis", "Forearms"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Curls", "Resistance Band Curls"]
+        },
+        {
+          "name": "Dumbbell Bicep Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": ["Brachialis", "Forearms"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Barbell Curls", "Cable Curls"]
+        },
+        {
+          "name": "Hammer Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Brachialis",
+          "secondaryMuscles": ["Biceps Brachii", "Forearms"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Reverse Curls", "Zottman Curls"]
+        },
+        {
+          "name": "Concentration Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": [],
+          "equipment": ["Dumbbell"],
+          "environment": "Gym",
+          "alternative": ["Spider Curls", "Preacher Curls"]
+        },
+        {
+          "name": "Cable Bicep Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": ["Brachialis"],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Curls", "Resistance Band Curls"]
+        },
+        {
+          "name": "Incline Dumbbell Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": ["Brachialis"],
+          "equipment": ["Dumbbells", "Incline Bench"],
+          "environment": "Gym",
+          "alternative": ["Spider Curls", "Concentration Curls"]
+        },
+        {
+          "name": "Preacher Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": ["Brachialis"],
+          "equipment": ["Preacher Bench", "EZ Bar", "Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Concentration Curls", "Spider Curls"]
+        },
+        {
+          "name": "Reverse Curls",
+          "type": "Strength",
+          "primaryMuscle": "Brachioradialis",
+          "secondaryMuscles": ["Biceps Brachii", "Brachialis"],
+          "equipment": ["Barbell", "Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Hammer Curls", "Zottman Curls"]
+        },
+        {
+          "name": "Zottman Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Brachialis",
+          "secondaryMuscles": ["Biceps Brachii", "Forearms"],
+          "equipment": ["Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Hammer Curls", "Reverse Curls"]
+        },
+        {
+          "name": "Spider Curls",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": ["Brachialis"],
+          "equipment": ["Dumbbells", "Preacher Bench"],
+          "environment": "Gym",
+          "alternative": ["Concentration Curls", "Incline Curls"]
+        },
+        {
+          "name": "Resistance Band Curls",
+          "type": "Endurance",
+          "primaryMuscle": "Biceps Brachii",
+          "secondaryMuscles": ["Brachialis"],
+          "equipment": ["Resistance Bands"],
+          "environment": "Home",
+          "alternative": ["Dumbbell Curls", "Cable Curls"]
+        }
+      ]
+    },
+    {
+      "muscle": "Triceps",
+      "exercises": [
+        {
+          "name": "Triceps Pushdowns",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": [],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Dips", "Close-Grip Push-ups"]
+        },
+        {
+          "name": "Overhead Triceps Extensions",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Triceps Brachii (Long Head)",
+          "secondaryMuscles": [],
+          "equipment": ["Dumbbell", "EZ Bar"],
+          "environment": "Gym",
+          "alternative": ["Cable Overhead Extensions", "Lying Extensions"]
+        },
+        {
+          "name": "Close-Grip Bench Press",
+          "type": "Strength",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": ["Chest", "Front Deltoids"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Dips", "JM Press"]
+        },
+        {
+          "name": "Skull Crushers",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": [],
+          "equipment": ["EZ Bar", "Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Lying Triceps Extensions", "Overhead Extensions"]
+        },
+        {
+          "name": "Dumbbell Kickbacks",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": [],
+          "equipment": ["Dumbbell"],
+          "environment": "Gym",
+          "alternative": ["Cable Pushdowns", "Bodyweight Dips"]
+        },
+        {
+          "name": "JM Press",
+          "type": "Strength",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": ["Chest"],
+          "equipment": ["Barbell"],
+          "environment": "Gym",
+          "alternative": ["Close-Grip Bench Press", "Lying Extensions"]
+        },
+        {
+          "name": "Dips",
+          "type": "Strength",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": ["Chest", "Front Deltoids"],
+          "equipment": ["Parallel Bars"],
+          "environment": "Gym",
+          "alternative": ["Close-Grip Bench Press", "Diamond Push-ups"]
+        },
+        {
+          "name": "Cable Overhead Extensions",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Triceps Brachii (Long Head)",
+          "secondaryMuscles": [],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Dumbbell Overhead Extensions", "Lying Extensions"]
+        },
+        {
+          "name": "Lying Triceps Extensions",
+          "type": "Hypertrophy",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": [],
+          "equipment": ["EZ Bar", "Dumbbells"],
+          "environment": "Gym",
+          "alternative": ["Skull Crushers", "Overhead Extensions"]
+        },
+        {
+          "name": "Diamond Push-ups",
+          "type": "Strength",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": ["Chest", "Core"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Close-Grip Bench Press", "Triceps Dips"]
+        },
+        {
+          "name": "Bodyweight Triceps Dips",
+          "type": "Strength",
+          "primaryMuscle": "Triceps Brachii",
+          "secondaryMuscles": ["Chest", "Front Deltoids"],
+          "equipment": ["Parallel Bars", "Bench"],
+          "environment": "Both",
+          "alternative": ["Dips", "Close-Grip Push-ups"]
+        }
+      ]
+    },
+    {
+      "muscle": "Abs",
+      "exercises": [
+        {
+          "name": "Crunches",
+          "type": "Endurance",
+          "primaryMuscle": "Rectus Abdominis",
+          "secondaryMuscles": [],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Bicycle Crunches", "Cable Crunches"]
+        },
+        {
+          "name": "Leg Raises",
+          "type": "Strength",
+          "primaryMuscle": "Lower Abs",
+          "secondaryMuscles": ["Hip Flexors"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Hanging Leg Raises", "Flutter Kicks"]
+        },
+        {
+          "name": "Hanging Leg Raises",
+          "type": "Strength",
+          "primaryMuscle": "Lower Abs",
+          "secondaryMuscles": ["Hip Flexors", "Obliques"],
+          "equipment": ["Pull-up Bar"],
+          "environment": "Gym",
+          "alternative": ["Lying Leg Raises", "Captain's Chair"]
+        },
+        {
+          "name": "Russian Twists",
+          "type": "Endurance",
+          "primaryMuscle": "Obliques",
+          "secondaryMuscles": ["Rectus Abdominis"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Woodchoppers", "Side Planks"]
+        },
+        {
+          "name": "Planks",
+          "type": "Endurance",
+          "primaryMuscle": "Core (Isometric)",
+          "secondaryMuscles": ["Shoulders", "Glutes"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Side Planks", "Ab Rollouts"]
+        },
+        {
+          "name": "Side Planks",
+          "type": "Endurance",
+          "primaryMuscle": "Obliques",
+          "secondaryMuscles": ["Core"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Russian Twists", "Woodchoppers"]
+        },
+        {
+          "name": "Bicycle Crunches",
+          "type": "Endurance",
+          "primaryMuscle": "Rectus Abdominis",
+          "secondaryMuscles": ["Obliques"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Russian Twists", "Crunches"]
+        },
+        {
+          "name": "Ab Rollouts",
+          "type": "Strength",
+          "primaryMuscle": "Core",
+          "secondaryMuscles": ["Shoulders", "Lats"],
+          "equipment": ["Ab Wheel", "Barbell"],
+          "environment": "Gym",
+          "alternative": ["Planks", "Cable Crunches"]
+        },
+        {
+          "name": "Cable Crunches",
+          "type": "Strength",
+          "primaryMuscle": "Rectus Abdominis",
+          "secondaryMuscles": [],
+          "equipment": ["Cable Machine"],
+          "environment": "Gym",
+          "alternative": ["Crunches", "Decline Sit-ups"]
+        },
+        {
+          "name": "Decline Sit-ups",
+          "type": "Strength",
+          "primaryMuscle": "Rectus Abdominis",
+          "secondaryMuscles": ["Hip Flexors"],
+          "equipment": ["Decline Bench"],
+          "environment": "Gym",
+          "alternative": ["Crunches", "Cable Crunches"]
+        },
+        {
+          "name": "Flutter Kicks",
+          "type": "Endurance",
+          "primaryMuscle": "Lower Abs",
+          "secondaryMuscles": ["Hip Flexors"],
+          "equipment": [],
+          "environment": "Both",
+          "alternative": ["Leg Raises", "Scissor Kicks"]
+        },
+        {
+          "name": "Woodchoppers",
+          "type": "Strength",
+          "primaryMuscle": "Obliques",
+          "secondaryMuscles": ["Shoulders", "Core"],
+          "equipment": ["Cable Machine", "Medicine Ball"],
+          "environment": "Gym",
+          "alternative": ["Russian Twists", "Side Planks"]
+        }
+      ]
+    }
+  ]
+}
